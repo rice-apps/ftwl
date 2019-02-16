@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './FrontPage.css';
+import './TopBar.css';
 
-export default class FrontPage extends Component {
+export default class TopBar extends Component {
     render() {
-        return(
+        return (
             <div></div>
         )
     }
