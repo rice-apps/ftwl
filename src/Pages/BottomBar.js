@@ -21,8 +21,8 @@ export default class AboutUs extends Component {
               <div className="BBTitles">Store</div>
             </div>
             <div className="SocialMIcons">
-              <img className="Icons" src = {FB}/>
-              <img className="Icons" src = {Twitter}/>
+              <a href="https://www.facebook.com/SavingTexasWildlife"><img className="Icons" src = {FB}/></a>
+              <a href="https://twitter.com/FriendsofTexas"><img className="Icons" src = {Twitter}/></a>
             </div>
           </div>
           )
