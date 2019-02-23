@@ -5,6 +5,7 @@ export default class WaysToGive extends Component {
     render() {
         return(
           <div>
+          <div className="MenuPlaceholder"></div>
             <div className="W2GBannerWrapper">
               <div id="W2GBannerText">
                 <div id="W2GBannerTitle">The Animals Need Your Help</div>
