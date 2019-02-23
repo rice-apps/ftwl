@@ -15,9 +15,8 @@ ReactDOM.render(
   <Router>
   <div>
     <Route exact path='/' component={App}/>
-    <Route exact path='/blog' component={BlogTest}>
-    <Route path = "/:id" component = {BlogPost}/>
-    </Route>
+    <Route exact path='/blog' component={BlogTest}/>
+    <Route exact path = "/blog/:id" component = {BlogPost}/>
   </div>
   </Router>
   , document.getElementById('root')
