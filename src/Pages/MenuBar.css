@@ -1,0 +1,61 @@
+button {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  font-family: 'OpenSans-SemiBold';
+  font-size: 2vh;
+}
+
+#menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+#AboutUs {
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  height: 20vh;
+  width: 10vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+#WaysToGive {
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  height: 20vh;
+  width: 10vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+#FoundAnimal {
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  height: 20vh;
+  width: 10vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+#News {
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  height: 20vh;
+  width: 10vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.menuSubtext {
+  font-size: 1.5vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.wrapper {
+  flex-flow: column nowrap;
+}
