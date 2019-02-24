@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import BlogTest from "./BlogTest.js";
 
 import './styles.css'
 
