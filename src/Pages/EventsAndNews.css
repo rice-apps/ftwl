@@ -1,0 +1,41 @@
+#EventsWrapper {
+  height: 50vh;
+  background-color: #0054A4;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2vw;
+  font-weight: bold;
+  color: white;
+}
+
+#events {
+  width: 25vw;
+  height: 50vh;
+}
+
+#news {
+  width: 25vw;
+  height: 50vh;
+}
+
+#link {
+  border: 2px solid white;
+  color: white;
+  border-radius: 5vh;
+  padding: 0.6vw 2.5vw;
+  text-decoration: none;
+  margin-top: 2vh;
+}
+
+#currentTitle {
+  font-size: 1.5vw;
+  color: white;
+}
+
+#latestImage {
+  height: 15vh;
+  width: 15vw;
+}

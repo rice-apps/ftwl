@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './BlogItem.css';
 
 
 
 const BlogItem = (props) => (
   <div className="box content">
-    <h1>{props.title}</h1>
+    <h1 id = "blogTitle">{props.title}</h1>
     <p>{props.content}</p>
 
     <Link to={{
