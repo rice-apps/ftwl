@@ -1,0 +1,87 @@
+.W2GBannerWrapper{
+  width: 100vw;
+  height: 20vh;
+  background-color: #0054A4;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#W2GBannerText{
+  width: 70vw;
+  height: 13vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#W2GBannerTitle{
+  font-size: 3.2vh;
+  font-weight: bold;
+}
+
+#W2GBannerText p{
+  font-size: 2vh;
+}
+
+.W2GContentWrapper{
+  width: 100vw;
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#W2GContent{
+  width: 65vw;
+  height: 47vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.W2GItem{
+  width: 14vw;
+  height: 44vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.W2Gplaceholder{
+  width: 14vw;
+  height: 13vw;
+  outline: 2px solid #0054A4;
+
+}
+
+.W2GItem h1{
+  color: #0054A4;
+  font-size: 2.5vh;
+}
+
+.W2GItem p{
+  font-size: 1.6vh;
+  width: 13vw;
+}
+
+.orangeLink{
+  height: 3vh;
+  width: 10vw;
+  border-radius: 1.5vh 1.5vh 1.5vh 1.5vh;
+  background-color: #F1812F;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vh;
+  font-weight: bold;
+}
+
+.orangeLink:hover{
+  background-color: #8D8D8D;
+}
