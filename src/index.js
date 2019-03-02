@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import * as contentful from 'contentful';
 import * as serviceWorker from './serviceWorker';
-import BlogTest from "./BlogTest.js";
 import {BrowserRouter as Router} from 'react-router-dom';
 import {Switch, Route } from 'react-router';
-import BlogPost from "./blog/BlogPost.js";
+import NewsList from "./news/NewsList.js";
+import NewsPost from "./news/NewsPost.js";
 
 
 
@@ -15,8 +15,8 @@ ReactDOM.render(
   <Router>
   <div>
     <Route exact path='/' component={App}/>
-    <Route exact path='/blog' component={BlogTest}/>
-    <Route exact path = "/blog/:id" component = {BlogPost}/>
+    <Route exact path='/news' component={NewsList}/>
+    <Route exact path = "/news/:id" component = {NewsPost}/>
   </div>
   </Router>
   , document.getElementById('root')
