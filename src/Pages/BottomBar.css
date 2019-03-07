@@ -1,0 +1,58 @@
+.BottomBarWrapper{
+  height: 22vh;
+  background-color: #8D8D8D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#BBTextWrapper{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 15vh;
+  width: 50vw;
+  color: white;
+  text-align: left;
+}
+
+#BBShortIntro{
+  width: 15vw;
+}
+
+#BBShortIntro h1{
+  color: white;
+  font-weight: bold;
+  font-size: 2vh;
+  margin-top: 0;
+}
+
+#BBShortIntro p{
+  font-size: 1.35vh;
+}
+
+.BBTitles{
+  color: white;
+  font-size: 1.6vh;
+}
+
+.SocialMIcons{
+  height: 3vw;
+  width: 5.6vw;
+  position: absolute;
+  margin-left: 29.5vw;
+  margin-top: 3.7vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Icons{
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 50%;
+}
+
+.Icons:hover{
+  opacity: 0.7;
+}

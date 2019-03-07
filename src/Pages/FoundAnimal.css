@@ -1,0 +1,11 @@
+#wrapper {
+  background-color: #0054A4;
+  width: 100vw;
+  height: 50vh;
+  color: white;
+}
+
+#guideLines {
+  font-size: 2vw;
+  font-weight: bold;
+}

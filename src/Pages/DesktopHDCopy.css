@@ -1,0 +1,50 @@
+.DHDCopyWrapper{
+  height: 100vh;
+  width: 100vw;
+}
+
+.MenuPlaceholder{
+  height: 12vh;
+  width: 100vw;
+}
+
+#DHDMain{
+  height: 88vh;
+  width: 100vw;
+  background-image: url('../Images/Deerthing.jpg');
+  background-size: 100vw 88vh;
+  color: white;
+}
+
+#DHDTextWrapper{
+  height: 50vh;
+  width: 80vw;
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: 20vh;
+}
+
+#DHDMain h1{
+  position: absolute;
+  font-size: 7vh;
+  font-style: italic;
+  font-family: cursive;
+}
+
+#DHDMain h2{
+  position: absolute;
+  margin-top: 18vh;
+  font-size: 3vh;
+}
+
+#learnBox{
+  height: 5vh;
+  width: 13vw;
+  position: absolute;
+  margin-top: 35vh;
+  outline: 0.3vh solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vh;
+}
