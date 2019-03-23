@@ -1,0 +1,55 @@
+.W2G2Wrapper{
+  height: 100vh;
+  width: 100vw;
+  background-color: #0054A4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.W2G2Wrapper h1{
+  margin-top: 15vh;
+  color: white;
+  font-size: 7vh;
+  font-style: italic;
+  font-family: cursive;
+}
+
+#W2G2OptionWrapper{
+  height: 55vh;
+  width: 65vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.W2G2Item{
+  height: 47vh;
+  width: 17vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.W2G2Icon{
+  height: 14vw;
+  width: 14vw;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.W2G2Item h2{
+  font-size: 3vh;
+}
+
+.W2G2Item p{
+  font-size: 1.8vh;
+  width: 12vw;
+}
