@@ -8,6 +8,8 @@ import WaysToGive from './Pages/WaysToGive.js';
 import WaysToGive2 from './Pages/WaysToGive2.js';
 import BottomBar from './Pages/BottomBar.js';
 import EventsAndNews from './Pages/EventsAndNews.js';
+import TopBar from './Pages/TopBar.js';
+import FoundAnimal from './Pages/FoundAnimal.js';
 
 
 
@@ -16,6 +18,7 @@ class App extends Component {
     return (
       <div className="App">
 
+        <TopBar/>
         <FrontPage/>
         <DesktopHDCopy/>
         <NeedAssistance/>
