@@ -38,6 +38,9 @@ export default class EventsAndNews extends React.Component{
       <div id = "EventsWrapper">
         <div id = "events">
         <p class = "title">Upcoming Events</p>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=533354427117925&autoLogAppEvents=1"></script>
+        <div class="fb-page" data-href="https://www.facebook.com/SavingTexasWildlife/" data-tabs="events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/SavingTexasWildlife/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SavingTexasWildlife/">Friends of Texas Wildlife</a></blockquote></div>
         </div>
 
         <div id = "news">
