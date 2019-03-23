@@ -6,6 +6,8 @@ export default class FoundAnimal extends Component {
     return(
       <div id = "wrapper">
       <p id = "guideLines">What Should I Do if I find...</p>
+      <div>
+      </div>
       </div>
     )
   }
