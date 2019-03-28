@@ -1,15 +1,23 @@
 button {
-  background: none !important;
+  background-color: white;
   border: none;
   padding: 0 !important;
   font-family: 'OpenSans-SemiBold';
   font-size: 2vh;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 #menu {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: flex-enda;
+  height: 4.5vh;
 }
 
 #AboutUs {
@@ -19,6 +27,9 @@ button {
   width: 10vw;
   margin-left: 1vw;
   margin-right: 1vw;
+  position: absolute;
+  top: 4vh;
+  background-color: white;
 }
 
 #WaysToGive {
@@ -28,6 +39,9 @@ button {
   width: 10vw;
   margin-left: 1vw;
   margin-right: 1vw;
+  position: absolute;
+  top: 4vh;
+  background-color: white;
 }
 
 #FoundAnimal {
@@ -37,6 +51,9 @@ button {
   width: 10vw;
   margin-left: 1vw;
   margin-right: 1vw;
+  position: absolute;
+  top: 4vh;
+  background-color: white;
 }
 
 #News {
@@ -46,6 +63,9 @@ button {
   width: 10vw;
   margin-left: 1vw;
   margin-right: 1vw;
+  position: absolute;
+  top: 4vh;
+  background-color: white;
 }
 
 .menuSubtext {
@@ -54,8 +74,12 @@ button {
   margin-right: 1vw;
   margin-top: 1vh;
   margin-bottom: 1vh;
+  background-color: white;
 }
 
 .wrapper {
   flex-flow: column nowrap;
+  align-items: center;
+  display: flex;
+  margin-right: 3.2vw;
 }

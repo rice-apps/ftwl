@@ -98,15 +98,17 @@ export default class MenuBar extends Component {
           {
             this.state.showAbout
               ? (
-                <div
+                <ul
                   id="AboutUs"
-                  ref={node => this.dropdownAbout = node}>
-                  <button className="menuSubtext">Our Mission</button>
-                  <button className="menuSubtext">Education and Community Outreach</button>
-                  <button className="menuSubtext">Hours & Location</button>
-                  <button className="menuSubtext">Board Members & Staff</button>
-                  <button className="menuSubtext">Contact Us</button>
-                </div>
+                  ref={(element) => {
+                    this.dropdownAbout = element;
+                  }}>
+                  <a><li className="menuSubtext">Our Mission</li></a>
+                  <a><li className="menuSubtext">Education and Community Outreach</li></a>
+                  <a><li className="menuSubtext">Hours & Location</li></a>
+                  <a><li className="menuSubtext">Board Members & Staff</li></a>
+                  <a><li className="menuSubtext">Contact Us</li></a>
+                </ul>
               )
               : (
                 null
@@ -123,16 +125,16 @@ export default class MenuBar extends Component {
           {
             this.state.showWays
               ? (
-                <div
+                <ul
                   id="WaysToGive"
                   ref={(element) => {
                     this.dropdownWays = element;
                   }}>
-                  <button className="menuSubtext">Donate</button>
-                  <button className="menuSubtext">Volunteer</button>
-                  <button className="menuSubtext">Affiliate Programs</button>
-                  <button className="menuSubtext">Holiday Giving</button>
-                </div>
+                  <li className="menuSubtext">Donate</li>
+                  <li className="menuSubtext">Volunteer</li>
+                  <li className="menuSubtext">Affiliate Programs</li>
+                  <li className="menuSubtext">Holiday Giving</li>
+                </ul>
               )
               : (
                 null
@@ -150,13 +152,13 @@ export default class MenuBar extends Component {
           {
             this.state.showFound
               ? (
-                <div
+                <ul
                   id="FoundAnimal"
                   ref={(element) => {
                     this.dropdownFound = element;
                   }}>
-                  <button className="menuSubtext">*To Be Continued*</button>
-                </div>
+                  <li className="menuSubtext">*To Be Continued*</li>
+                </ul>
               )
               : (
                 null
@@ -174,15 +176,15 @@ export default class MenuBar extends Component {
           {
             this.state.showNews
               ? (
-                <div
+                <ul
                   id="News"
                   ref={(element) => {
                     this.dropdownNews = element;
                   }}>
-                  <button className="menuSubtext">Blog</button>
-                  <button className="menuSubtext">Events</button>
-                  <button className="menuSubtext">Animals Stories</button>
-                </div>
+                  <li className="menuSubtext">Blog</li>
+                  <li className="menuSubtext">Events</li>
+                  <li className="menuSubtext">Animals Stories</li>
+                </ul>
               )
               : (
                 null
