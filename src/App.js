@@ -10,7 +10,7 @@ import BottomBar from './Pages/BottomBar.js';
 import EventsAndNews from './Pages/EventsAndNews.js';
 import TopBar from './Pages/TopBar.js';
 import FoundAnimal from './Pages/FoundAnimal.js';
-
+import ReactGA from 'react-ga';
 
 
 class App extends Component {
