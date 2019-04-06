@@ -15,9 +15,28 @@
   font-family: cursive;
 }
 
-#HostPartyOptionWrapper{
+#HostPartyContentWrapper{
   height: 55vh;
+  width: 60vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.HostPartyTextWrapper{
+  height: 20vw;
+  width: 30vw;
+  text-align: left;
+  color: #646464;
+}
+
+.HostPartyHeader{
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.HostPartyImage{
+  height: 20vw;
+  width: 20vw;
+  background-color: #C4C4C4;
 }
