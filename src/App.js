@@ -14,6 +14,13 @@ import FoundAnimal from './Pages/FoundAnimal.js';
 
 
 class App extends Component {
+  initializeReactGA() {
+    ReactGA.initialize('UA-137795173-2');
+    ReactGA.pageview('/');
+  }
+  componentDidMount(){
+    this.initializeReactGA();
+  }
   render() {
     return (
       <div className="App">
