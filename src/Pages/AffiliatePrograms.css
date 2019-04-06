@@ -1,0 +1,51 @@
+.AffProgramsWrapper{
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AffProgramsWrapper h1{
+  margin-top: 10vh;
+  color: black;
+  font-size: 7vh;
+  font-style: italic;
+  font-family: cursive;
+}
+
+#AffProgramsWrapper{
+  margin-top: 3vh;
+  width: 42vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.AffProgramsTitle{
+  width: 30vw;
+  margin-top: 8vh;
+  color: black;
+  font-size: 6vh;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.AffProgramsItem{
+  width: 42vw;
+  color: #646464;
+  text-align: left;
+}
+
+.AffProgramsItemTitle{
+  font-size: 2.7vh;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.AffProgramsItem p{
+  font-size: 1.7vh;
+}

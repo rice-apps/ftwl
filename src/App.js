@@ -10,6 +10,10 @@ import BottomBar from './Pages/BottomBar.js';
 import EventsAndNews from './Pages/EventsAndNews.js';
 import TopBar from './Pages/TopBar.js';
 import FoundAnimal from './Pages/FoundAnimal.js';
+import HowYouCanHelp from './Pages/HowYouCanHelp.js';
+import AffiliatePrograms from './Pages/AffiliatePrograms.js';
+import HostAParty from './Pages/HostAParty.js';
+
 
 
 
@@ -24,6 +28,9 @@ class App extends Component {
         <NeedAssistance/>
         <WaysToGive2/>
         <WaysToGive/>
+        <HowYouCanHelp/>
+        <AffiliatePrograms/>
+        <HostAParty/>
         <EventsAndNews/>
         <BottomBar/>
       </div>
