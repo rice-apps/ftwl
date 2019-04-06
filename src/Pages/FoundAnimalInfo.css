@@ -1,0 +1,67 @@
+.FAInfoWrapper{
+  height: 300vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FAInfoHeader{
+  color: #646464;
+  font-size: 6.5vh;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  margin-top: 10vh;
+}
+
+.FAInfosubHeader{
+  color: #646464;
+  font-size: 2.2vh;
+  font-weight: bold;
+}
+
+.AnimalOptionsWrapper{
+  height: 20vw;
+  width: 84vw;
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.AnimalOption{
+  height: 18vw;
+  width: 18vw;
+  background-color: #DBDBDB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AnimalOption h1{
+  color: #646464;
+  font-size: 5vh;
+}
+
+.CallingInfoWrapper{
+  height: 20vh;
+  width: 70vw;
+  margin-top: 5vh;
+  outline: 1px dotted black;
+}
+
+.AnimalStepsInfoWrapper{
+  height: 80vh;
+  width: 90vw;
+  margin-top: 15vh;
+  outline: 1px dotted black;
+}
+
+.FAQWrapper{
+  height: 80vh;
+  width: 90vw;
+  margin-top: 5vh;
+  outline: 1px dotted black;
+}

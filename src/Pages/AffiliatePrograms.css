@@ -7,13 +7,7 @@
   align-items: center;
 }
 
-.AffProgramsWrapper h1{
-  margin-top: 10vh;
-  color: black;
-  font-size: 7vh;
-  font-style: italic;
-  font-family: cursive;
-}
+
 
 #AffProgramsWrapper{
   margin-top: 3vh;
@@ -31,7 +25,8 @@
   color: black;
   font-size: 6vh;
   font-style: italic;
-  font-family: cursive;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
 }
 
 .AffProgramsItem{

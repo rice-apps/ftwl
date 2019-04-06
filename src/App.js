@@ -13,6 +13,7 @@ import FoundAnimal from './Pages/FoundAnimal.js';
 import HowYouCanHelp from './Pages/HowYouCanHelp.js';
 import AffiliatePrograms from './Pages/AffiliatePrograms.js';
 import HostAParty from './Pages/HostAParty.js';
+import FoundAnimalInfo from './Pages/FoundAnimalInfo.js';
 
 
 
@@ -32,6 +33,7 @@ class App extends Component {
         <AffiliatePrograms/>
         <HostAParty/>
         <EventsAndNews/>
+        <FoundAnimalInfo/>
         <BottomBar/>
       </div>
     );

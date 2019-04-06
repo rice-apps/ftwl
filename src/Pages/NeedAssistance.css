@@ -31,9 +31,10 @@
 }
 
 #NATitle{
-  font-size: calc(35px + 2.5vw + 1.2vh); 
+  font-size: calc(35px + 2.5vw + 1.2vh);
   font-style: italic;
-  font-family: cursive;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
 
 }
 
