@@ -4,6 +4,7 @@ button {
   padding: 0 !important;
   font-family: 'OpenSans-SemiBold';
   font-size: 2vh;
+  font-weight: bold;
 }
 
 ul {
@@ -16,31 +17,36 @@ ul {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  align-items: flex-enda;
-  height: 4.5vh;
+  align-items: flex-end;
+  height: 15vh;
+  padding: 1.5vh;
+}
+
+#logo {
+  margin-right: 2vw;
 }
 
 #AboutUs {
   flex-flow: column nowrap;
   justify-content: space-around;
-  height: 20vh;
+  height: 24vh;
   width: 10vw;
   margin-left: 1vw;
   margin-right: 1vw;
   position: absolute;
-  top: 4vh;
+  top: 18vh;
   background-color: white;
 }
 
 #WaysToGive {
   flex-flow: column nowrap;
   justify-content: space-around;
-  height: 20vh;
+  height: 16vh;
   width: 10vw;
   margin-left: 1vw;
   margin-right: 1vw;
   position: absolute;
-  top: 4vh;
+  top: 18vh;
   background-color: white;
 }
 
@@ -52,34 +58,35 @@ ul {
   margin-left: 1vw;
   margin-right: 1vw;
   position: absolute;
-  top: 4vh;
+  top: 18vh;
   background-color: white;
 }
 
 #News {
   flex-flow: column nowrap;
   justify-content: space-around;
-  height: 20vh;
+  height: 12vh;
   width: 10vw;
   margin-left: 1vw;
   margin-right: 1vw;
   position: absolute;
-  top: 4vh;
+  top: 18vh;
   background-color: white;
 }
 
 .menuSubtext {
-  font-size: 1.5vh;
   margin-left: 1vw;
   margin-right: 1vw;
   margin-top: 1vh;
   margin-bottom: 1vh;
   background-color: white;
+  font-family: 'OpenSans-SemiBold';
+  font-size: 1.5vh;
 }
 
 .wrapper {
   flex-flow: column nowrap;
   align-items: center;
   display: flex;
-  margin-right: 3.2vw;
+  margin-right: 3.0vw;
 }

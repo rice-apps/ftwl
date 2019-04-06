@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './MenuBar.css';
+import DownArrow from '../Images/DownArrow.svg';
+import Logo from '../Images/Logo.svg';
 
 export default class MenuBar extends Component {
   constructor() {
@@ -90,10 +92,16 @@ export default class MenuBar extends Component {
   render() {
     return (
       <div id="menu">
+        <div id="logo">
+          <img src={Logo} alt="logo" />
+        </div>
+
         <div className="wrapper">
           <button onClick={this.showAbout}>
             About Us
-        </button>
+            &nbsp;
+            <img src={DownArrow} alt="arrow" />
+          </button>
 
           {
             this.state.showAbout
@@ -104,9 +112,13 @@ export default class MenuBar extends Component {
                     this.dropdownAbout = element;
                   }}>
                   <a><li className="menuSubtext">Our Mission</li></a>
+                  <hr/>
                   <a><li className="menuSubtext">Education and Community Outreach</li></a>
+                  <hr/>
                   <a><li className="menuSubtext">Hours & Location</li></a>
+                  <hr/>
                   <a><li className="menuSubtext">Board Members & Staff</li></a>
+                  <hr/>
                   <a><li className="menuSubtext">Contact Us</li></a>
                 </ul>
               )
@@ -120,7 +132,9 @@ export default class MenuBar extends Component {
 
           <button onClick={this.showWays}>
             Ways to Give
-        </button>
+            &nbsp;
+            <img src={DownArrow} alt="arrow" />
+          </button>
 
           {
             this.state.showWays
@@ -131,8 +145,11 @@ export default class MenuBar extends Component {
                     this.dropdownWays = element;
                   }}>
                   <li className="menuSubtext">Donate</li>
+                  <hr/>
                   <li className="menuSubtext">Volunteer</li>
+                  <hr/>
                   <li className="menuSubtext">Affiliate Programs</li>
+                  <hr/>
                   <li className="menuSubtext">Holiday Giving</li>
                 </ul>
               )
@@ -147,7 +164,9 @@ export default class MenuBar extends Component {
 
           <button onClick={this.showFound}>
             Found an Animal?
-        </button>
+            &nbsp;
+            <img src={DownArrow} alt="arrow" />
+          </button>
 
           {
             this.state.showFound
@@ -171,7 +190,9 @@ export default class MenuBar extends Component {
 
           <button onClick={this.showNews}>
             News & Events
-        </button>
+            &nbsp;
+            <img src={DownArrow} alt="arrow" />
+          </button>
 
           {
             this.state.showNews
@@ -182,7 +203,9 @@ export default class MenuBar extends Component {
                     this.dropdownNews = element;
                   }}>
                   <li className="menuSubtext">Blog</li>
+                  <hr/>
                   <li className="menuSubtext">Events</li>
+                  <hr/>
                   <li className="menuSubtext">Animals Stories</li>
                 </ul>
               )
@@ -193,9 +216,11 @@ export default class MenuBar extends Component {
 
         </div>
 
-        <button>
-          Store
-        </button>
+        <div>
+          <button>
+            Store
+          </button>
+        </div>
       </div>
     )
   }
