@@ -74,8 +74,7 @@ export default class FoundAnimalInfo extends Component {
                 <div className="FAQCategory">NUISANCE WILDLIFE</div>
                 <div className="FAQTextWrapper">
                   <div className="FAQTitle">I FOUND AN ANIMAL. WHO SHOULD I CALL?</div>
-                  <p>For injured deer, call Game Warden Dispatch at 512-389-4848.</p>
-                  <p>All other injured or orphaned wildlife, call 281-259-0039.</p>
+                  <p>For injured deer, call Game Warden Dispatch at 512-389-4848.<br/>All other injured or orphaned wildlife, call 281-259-0039.</p>
                 </div>
               </div>
               <div className="FAQItem">
@@ -91,8 +90,7 @@ export default class FoundAnimalInfo extends Component {
                 <div className="FAQCategory">BRINGING ANIMALS TO THE INTAKE CENTER</div>
                 <div className="FAQTextWrapper">
                   <div className="FAQTitle">I FOUND AN ANIMAL. WHO SHOULD I CALL?</div>
-                  <p>For injured deer, call Game Warden Dispatch at 512-389-4848.</p>
-                  <p>All other injured or orphaned wildlife, call 281-259-0039.</p>
+                  <p>For injured deer, call Game Warden Dispatch at 512-389-4848.<br/>All other injured or orphaned wildlife, call 281-259-0039.</p>
                 </div>
               </div>
             </div>
