@@ -12,7 +12,8 @@
   color: white;
   font-size: 7vh;
   font-style: italic;
-  font-family: cursive;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
 }
 
 #W2G2OptionWrapper{
