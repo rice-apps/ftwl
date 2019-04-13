@@ -1,0 +1,78 @@
+.VolunteerWrapper{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.VolunteerTitle{
+  margin-top: 7vh;
+  color: black;
+  font-size: 7vh;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+.VolunteerSubtitle{
+  height: auto;
+  width: 55vw;
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  font-size: 2.3vh;
+  font-weight: bold;
+  color: #646464;
+}
+
+.VolunteerButton{
+  height: 5.5vh;
+  width: 20vw;
+  color: #969696;
+  outline: 1px solid #969696;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VolunteerCategoryWrapper{
+  height: 50vh;
+  width: 55vw;
+  margin-top: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.VolunteerCategoryItem{
+  height: 50vh;
+  width: 23vw;
+  background-color: #DBDBDB;
+  box-shadow: 0.6vw 0.6vw grey;
+  color: #646464;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.VolunteerCategoryTitle{
+  font-size: 3.5vh;
+  font-weight: bold;
+  margin-top: 4vh;
+}
+
+.VolunteerCategorySubtitle{
+  font-size: 1.5vh;
+  font-style: italic;
+  width: 17vw;
+  margin-bottom: 2vh;
+  margin-top: 1vh;
+  color: #969696;
+}
+
+.VolunteerCategoryItem p{
+  width: 17vw;
+  color: #969696;
+  font-style: italic;
+  font-size: 2vh;
+}
