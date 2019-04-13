@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 
 import './DesktopHDCopy.css';
 
-import Menu from './MenuBar.js';
-
-export default class AboutUs extends Component {
+export default class DesktopHDCopy extends Component {
     render() {
         return(
           <div className="DHDCopyWrapper">

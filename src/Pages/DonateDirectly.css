@@ -1,0 +1,20 @@
+button {
+  background-color: grey;
+  border: none;
+  padding: 0 !important;
+  font-family: 'OpenSans-SemiBold';
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #F3F3F3;
+}
+
+#donate_directly {
+  display: flex;
+  flex-flow: column nowrap;
+}
