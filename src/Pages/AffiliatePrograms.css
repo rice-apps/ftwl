@@ -1,0 +1,59 @@
+.AffProgramsWrapper{
+  height: 120vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+#AffProgramsWrapper{
+  margin-top: 3vh;
+  width: 42vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.AffProgramsTitle{
+  width: 30vw;
+  margin-top: 8vh;
+  color: black;
+  font-size: 6vh;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+.AffProgramsItem{
+  width: 42vw;
+  color: #646464;
+  text-align: left;
+  outline: 1px solid black;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+}
+
+.AffProgrmasTextWrapper{
+  height: auto;
+  width: 35vw;
+}
+
+.AffProgramsItemTitle{
+  font-size: 2.7vh;
+  font-weight: bold;
+}
+
+.AffProgramsItem p{
+  width: 35vw;
+  font-size: 1.7vh;
+}
+
+.AffIcon{
+  margin-left: 2.5vw;
+}
