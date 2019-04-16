@@ -14,6 +14,7 @@ import HowYouCanHelp from './Pages/HowYouCanHelp.js';
 import AffiliatePrograms from './Pages/AffiliatePrograms.js';
 import HostAParty from './Pages/HostAParty.js';
 import FoundAnimalInfo from './Pages/FoundAnimalInfo.js';
+import Volunteer from './Pages/Volunteer.js';
 
 
 
@@ -34,6 +35,7 @@ class App extends Component {
         <HostAParty/>
         <EventsAndNews/>
         <FoundAnimalInfo/>
+        <Volunteer/>
         <BottomBar/>
       </div>
     );
