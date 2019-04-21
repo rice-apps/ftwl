@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import './DesktopHDCopy.css';
 
-import MenuBar from './MenuBar.js';
-
 export default class DesktopHDCopy extends Component {
     render() {
         return(

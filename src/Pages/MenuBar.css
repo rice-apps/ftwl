@@ -2,7 +2,7 @@ button {
   background-color: white;
   border: none;
   padding: 0 !important;
-  font-family: 'OpenSans-SemiBold';
+  font-family: 'Kollektif';
   font-size: 2vh;
   font-weight: bold;
 }
@@ -16,49 +16,49 @@ ul {
 #menu {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-end;
-  height: 15vh;
+  height: 10vh;
   padding: 1.5vh;
 }
 
 #logo {
-  margin-right: 2vw;
+  margin-right: -1vw;
 }
 
 #AboutUs {
   flex-flow: column nowrap;
   justify-content: space-around;
-  height: 24vh;
+  height: 22.5vh;
   width: 10vw;
   margin-left: 1vw;
   margin-right: 1vw;
   position: absolute;
-  top: 18vh;
+  top: 13vh;
   background-color: white;
 }
 
 #WaysToGive {
   flex-flow: column nowrap;
   justify-content: space-around;
-  height: 16vh;
+  height: 12vh;
   width: 10vw;
   margin-left: 1vw;
   margin-right: 1vw;
   position: absolute;
-  top: 18vh;
+  top: 13vh;
   background-color: white;
 }
 
 #FoundAnimal {
   flex-flow: column nowrap;
   justify-content: space-around;
-  height: 20vh;
+  height: 12vh;
   width: 10vw;
   margin-left: 1vw;
   margin-right: 1vw;
   position: absolute;
-  top: 18vh;
+  top: 13vh;
   background-color: white;
 }
 
@@ -70,7 +70,7 @@ ul {
   margin-left: 1vw;
   margin-right: 1vw;
   position: absolute;
-  top: 18vh;
+  top: 13vh;
   background-color: white;
 }
 
@@ -80,7 +80,7 @@ ul {
   margin-top: 1vh;
   margin-bottom: 1vh;
   background-color: white;
-  font-family: 'OpenSans-SemiBold';
+  font-family: 'Kollektif';
   font-size: 1.5vh;
 }
 
@@ -89,4 +89,11 @@ ul {
   align-items: center;
   display: flex;
   margin-right: 3.0vw;
+}
+
+#secondwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1vw;
 }
