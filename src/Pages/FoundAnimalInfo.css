@@ -1,0 +1,163 @@
+.FAInfoWrapper{
+  height: 300vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FAInfoHeader{
+  color: #646464;
+  font-size: 6.5vh;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  margin-top: 10vh;
+}
+
+.FAInfosubHeader{
+  color: #646464;
+  font-size: 2.2vh;
+  font-weight: bold;
+}
+
+.AnimalOptionsWrapper{
+  height: 20vw;
+  width: 84vw;
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.AnimalOption{
+  height: 18vw;
+  width: 18vw;
+  background-color: #DBDBDB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AnimalOption h1{
+  color: #646464;
+  font-size: 5vh;
+}
+
+.CallingInfoWrapper{
+  height: 20vh;
+  width: 75vw;
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.CallingInfo{
+  height: 17vh;
+  width: 30vw;
+  background-color: #DBDBDB;
+  box-shadow: 0.8vw 0.8vw grey;
+  color: #646464;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.CallingInfo h3{
+  font-size: 2.8vh;
+}
+
+.CallingInfo h1{
+  position: absolute;
+  margin-top: 7vh;
+  font-size: 5.7vh;
+}
+
+.AnimalStepsInfoWrapper{
+  height: 80vh;
+  width: 90vw;
+  margin-top: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.StepItemWrapper{
+  height: 20vh;
+  width: 42vw;
+  color: #646464;
+  display: flex;
+  align-items: center;
+}
+
+.StepIndex{
+  height: 17vh;
+  width: 9vw;
+  font-size: 15vh;
+  font-weight: bold;
+}
+
+.StepTextWrapper{
+  height: 17vh;
+  width: 32vw;
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.StepTextWrapper h1{
+  font-size: 4vh;
+  text-align: left;
+}
+
+.StepTextWrapper p{
+  color: #969696;
+  position: absolute;
+  width: 32vw;
+  text-align: left;
+  font-size: 2.4vh;
+  font-style: italic;
+  margin-top: 8vh;
+}
+
+.FAQWrapper{
+  height: 80vh;
+  width: 90vw;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.FAQItem{
+  display: flex;
+  align-items: flex-start;
+  color: #646464;
+  margin-bottom: 10vh;
+}
+
+.FAQCategory{
+  width: 20vw;
+  height: auto;
+  font-size: 2.5vh;
+  font-weight: bold;
+  text-align: left;
+}
+
+.FAQTextWrapper{
+  width: 60vw;
+  height: auto;
+  margin-left: 5vw;
+  text-align: left;
+}
+
+.FAQTitle{
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.FAQTextWrapper p{
+  font-weight: bold;
+  color: #969696;
+}

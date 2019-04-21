@@ -26,9 +26,10 @@
 
 #DHDMain h1{
   position: absolute;
-  font-size: 7vh;
+  font-size: calc(30px + 2.3vw + 1vh);
   font-style: italic;
-  font-family: cursive;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
 }
 
 #DHDMain h2{
