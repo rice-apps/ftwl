@@ -19,11 +19,24 @@ export default class EventsAndNews extends React.Component{
     this.fetchPosts().then(this.setPosts);
   }
 
+  hasNews = true;
+
   setPosts = response => {
-    var latestNews = response.items[response.items.length - 1].fields;
+    if (response.items.length < 1) {
+      this.hasNews = false;
+      return;
+    }
+    var latestNews = response.items[0].fields;
+    response.items.forEach(function (item) {
+      var dateA = new Date(latestNews.date);
+      var dateB = new Date(item.fields.date);
+      if (dateA < dateB) {
+        latestNews = item.fields;
+      }
+    });
     this.setState({
       title: latestNews.title,
-      imageUrl: 'https:' + latestNews.image[0].fields.file.url
+      imageUrl: latestNews.image != undefined ? 'https:' + latestNews.image[0].fields.file.url : null
     });
     console.log(latestNews);
   }
@@ -38,11 +51,16 @@ export default class EventsAndNews extends React.Component{
       <div id = "EventsWrapper">
         <div id = "events">
         <p class = "title">Upcoming Events</p>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=533354427117925&autoLogAppEvents=1"></script>
+        <div class="fb-page" data-href="https://www.facebook.com/SavingTexasWildlife/" data-tabs="events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/SavingTexasWildlife/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SavingTexasWildlife/">Friends of Texas Wildlife</a></blockquote></div>
         </div>
 
         <div id = "news">
         <p class = "title">Latest News</p>
-        <img id = "latestImage" src = {this.state.imageUrl}/>
+        {
+          (this.state.imageUrl != null && this.hasNews) ? <img id = "latestImage" src = {this.state.imageUrl}/> : <div></div>
+        }
         <p id = "currentTitle">{this.state.title}</p>
         <Link to={{pathname: "/news"}} id = "link">
           See all News

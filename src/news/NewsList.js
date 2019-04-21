@@ -18,8 +18,14 @@ class NewsList extends React.Component{
   }
 
   setPosts = response => {
+    var newsList = response.items;
+    newsList.sort(function compare(a, b) {
+      var dateA = new Date(a.fields.date);
+      var dateB = new Date(b.fields.date);
+      return dateB - dateA;
+    });
     this.setState({
-      posts: response.items
+      posts: newsList
     });
   }
 
@@ -31,8 +37,9 @@ class NewsList extends React.Component{
       <div>
       <br/>
       { this.state.posts.map(({fields}, i) =>
-        <NewsItem key={i} {...fields} />
+        <NewsItem key={fields.date} {...fields} />
       )}
+      {console.log(this.state.posts)}
       </div>
     )
   }

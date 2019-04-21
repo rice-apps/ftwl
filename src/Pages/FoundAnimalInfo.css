@@ -45,6 +45,11 @@
   font-size: 5vh;
 }
 
+.link {
+  text-decoration: none;
+}
+
+
 .CallingInfoWrapper{
   height: 20vh;
   width: 75vw;
