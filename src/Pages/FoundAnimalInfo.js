@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './FoundAnimalInfo.css';
+import { Link } from 'react-router-dom';
 
 export default class FoundAnimalInfo extends Component {
     render() {
@@ -8,10 +9,29 @@ export default class FoundAnimalInfo extends Component {
             <div className="FAInfoHeader">Found an animal?</div>
             <div className="FAInfosubHeader">Don't worry! We can help.</div>
             <div className="AnimalOptionsWrapper">
-              <div className="AnimalOption"><h1>Rabbits</h1></div>
-              <div className="AnimalOption"><h1>Birds</h1></div>
-              <div className="AnimalOption"><h1>Squirrels</h1></div>
-              <div className="AnimalOption"><h1>Fawns</h1></div>
+            <Link to={{
+              pathname: "/animals/rabbits",
+            }} class = "link">
+            <div className="AnimalOption"><h1>Rabbits</h1></div>
+            </Link>
+
+            <Link to={{
+              pathname: "/animals/birds",
+            }} class = "link">
+            <div className="AnimalOption"><h1>Birds</h1></div>
+            </Link>
+
+            <Link to={{
+              pathname: "/animals/squirrels",
+            }} class = "link">
+            <div className="AnimalOption"><h1>Squirrels</h1></div>
+            </Link>
+
+            <Link to={{
+              pathname: "/animals/fawns",
+            }} class = "link">
+            <div className="AnimalOption"><h1>Fawns</h1></div>
+            </Link>
             </div>
             <div className="FAInfoHeader">General Information</div>
             <div className="CallingInfoWrapper">

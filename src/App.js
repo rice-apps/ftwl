@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import BlogTest from "./BlogTest.js";
 import FrontPage from './Pages/FrontPage.js';
 import DesktopHDCopy from './Pages/DesktopHDCopy.js';
 import NeedAssistance from './Pages/NeedAssistance.js';
