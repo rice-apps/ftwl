@@ -15,7 +15,10 @@ import AffiliatePrograms from './Pages/AffiliatePrograms.js';
 import HostAParty from './Pages/HostAParty.js';
 import FoundAnimalInfo from './Pages/FoundAnimalInfo.js';
 import Volunteer from './Pages/Volunteer.js';
-
+import Donate from './Pages/Donate.js';
+import AboutUs from './Pages/AboutUs.js';
+import CommunityOutreach from './Pages/CommunityOutreach.js';
+import IntakeCenter from './Pages/IntakeCenter.js';
 
 
 
@@ -36,6 +39,10 @@ class App extends Component {
         <EventsAndNews/>
         <FoundAnimalInfo/>
         <Volunteer/>
+        <Donate/>
+        <AboutUs/>
+        <CommunityOutreach/>
+        <IntakeCenter/>
         <BottomBar/>
       </div>
     );
