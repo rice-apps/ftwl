@@ -14,6 +14,7 @@ import HowYouCanHelp from './Pages/HowYouCanHelp.js';
 import AffiliatePrograms from './Pages/AffiliatePrograms.js';
 import HostAParty from './Pages/HostAParty.js';
 import FoundAnimalInfo from './Pages/FoundAnimalInfo.js';
+import MenuBar from './Pages/MenuBar.js';
 
 
 
@@ -22,16 +23,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <MenuBar/>
         <DesktopHDCopy/>
-        <NeedAssistance/>
-        <WaysToGive2/>
-        <WaysToGive/>
-        <HowYouCanHelp/>
-        <AffiliatePrograms/>
-        <HostAParty/>
-        <EventsAndNews/>
-        <FoundAnimalInfo/>
-        <BottomBar/>
       </div>
     );
   }

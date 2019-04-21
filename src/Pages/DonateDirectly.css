@@ -5,6 +5,8 @@ button {
   font-family: 'OpenSans-SemiBold';
   font-size: 2vh;
   font-weight: bold;
+  height: 2vh;
+  width: 75vw;
 }
 
 ul {
@@ -12,9 +14,20 @@ ul {
   padding: 0;
   margin: 0;
   background-color: #F3F3F3;
+  height: 2vh;
+  width: 75vw;
+}
+
+li {
+  background-color: #F3F3F3;
+
 }
 
 #donate_directly {
   display: flex;
   flex-flow: column nowrap;
+}
+
+.wrapper {
+  margin-bottom: 50vh;
 }

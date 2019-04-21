@@ -2,3 +2,23 @@
   font-family: 'OpenSans-SemiBold';
   src: url('./fonts/OpenSans-SemiBold.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Kollektif';
+  src: url('./fonts/Kollektif.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kollektif-Italic';
+  src: url('./fonts/Kollektif-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kollektif-BoldItalic';
+  src: url('./fonts/Kollektif-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kollektif-Bold';
+  src: url('./fonts/Kollektif-Bold.ttf') format('truetype');
+}

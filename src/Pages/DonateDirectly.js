@@ -7,30 +7,29 @@ export default class DonateDirectly extends Component {
     super();
 
     this.state = {
-      sections = {
-        animal_food: false,
-        paper_plastic: false,
-        cleaning: false,
-        textiles: false,
-        pet_supplies: false,
-        hardware: false,
-        other: false,
-        specialty: false,
-      }
+      sections: {
+        'animal_food': false,
+        'paper_plastic': false,
+        'cleaning': false,
+        'textiles': false,
+        'pet_supplies': false,
+        'hardware': false,
+        'other': false,
+        'specialty': false,
+      },
     }
 
-
+    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick(section) {
-    if (this.state.sections[section]) {
-      this.state.sections[section] = false;
-    } else {
-      this.state.sections[section] = true;
-    }
+    const sections = {...this.state['sections']};
+    sections[section] = !sections[section];
+    this.setState({ ['sections']: sections});
   }
 
   render() {
+    this.handleClick('other');
     return (
       <div id="donate_directly">
 
@@ -43,16 +42,16 @@ export default class DonateDirectly extends Component {
             To donate items, visit <a>our rehab center</a> during our business hours or <a>contact us</a> to arrange a donation.
           </p>
         </div>
-        
+
         <div className="wrapper">
-          <button onClick={this.handleClick("animal_food")}>
+          <button onClick={() => this.handleClick('animal_food')}>
             Animal Food
             &nbsp;
             <img src={DownArrow} alt="arrow" />
           </button>
 
           {
-            this.state.section["animal_food"]
+            this.state['sections']['animal_food']
               ? (
                 <ul id="animal_food">
                   <li className="menuSubtext">Science Diet Feline Maintenance Light </li>
@@ -88,14 +87,14 @@ export default class DonateDirectly extends Component {
         </div>
 
         <div className="wrapper">
-          <button onClick={handleClick("paper_plastic")}>
+          <button onClick={this.handleClick('paper_plastic')}>
             Paper & Plastic Items
             &nbsp;
             <img src={DownArrow} alt="arrow" />
           </button>
 
           {
-            this.state.section["paper_plastic"]
+            this.state['sections']['paper_plastic']
               ? (
                 <ul id="paper_plastic">
                   <li className="menuSubtext">Paper towels</li>
@@ -121,14 +120,14 @@ export default class DonateDirectly extends Component {
         </div>
 
         <div className="wrapper">
-          <button onClick={handleClick("cleaning")}>
+          <button onClick={this.handleClick('cleaning')}>
             Cleaning Supplies
             &nbsp;
             <img src={DownArrow} alt="arrow" />
           </button>
 
           {
-            this.state.section["cleaning"]
+            this.state['sections']['cleaning']
               ? (
                 <ul id="cleaning">
                   <li className="menuSubtext">Cleaning supplies</li>
@@ -156,14 +155,14 @@ export default class DonateDirectly extends Component {
         </div>
 
         <div className="wrapper">
-          <button onClick={handleClick("textiles")}>
+          <button onClick={this.handleClick('textiles')}>
             Textiles
             &nbsp;
             <img src={DownArrow} alt="arrow" />
           </button>
 
           {
-            this.state.section["textiles"]
+            this.state['sections']['textiles']
               ? (
                 <ul id="textiles">
                   <li className="menuSubtext">Towels or flat sheets (no holes)</li>
@@ -181,14 +180,14 @@ export default class DonateDirectly extends Component {
         </div>
 
         <div className="wrapper">
-          <button onClick={handleClick("pet_supplies")}>
+          <button onClick={this.handleClick('pet_supplies')}>
             Pet Supplies
             &nbsp;
             <img src={DownArrow} alt="arrow" />
           </button>
 
           {
-            this.state.section["pet_supplies"]
+            this.state['sections']['pet_supplies']
               ? (
                 <ul id="pet_supplies">
                   <li className="menuSubtext">Pet carrier</li>
@@ -214,14 +213,14 @@ export default class DonateDirectly extends Component {
         </div>
 
         <div className="wrapper">
-          <button onClick={handleClick("hardware")}>
+          <button onClick={this.handleClick('hardware')}>
             Hardware
             &nbsp;
             <img src={DownArrow} alt="arrow" />
           </button>
 
           {
-            this.state.section["hardware"]
+            this.state['sections']['hardware']
               ? (
                 <ul id="hardware">
                   <li className="menuSubtext">Plumbing fixtures</li>
@@ -243,14 +242,14 @@ export default class DonateDirectly extends Component {
         </div>
 
         <div className="wrapper">
-          <button onClick={handleClick("other")}>
+          <button onClick={this.handleClick('other')}>
             Other Home Items
             &nbsp;
             <img src={DownArrow} alt="arrow" />
           </button>
 
           {
-            this.state.section["other"]
+            this.state['sections']['other']
               ? (
                 <ul id="other">
                   <li className="menuSubtext">Metal stacking or folding chairs</li>
@@ -274,14 +273,14 @@ export default class DonateDirectly extends Component {
         </div>
 
         <div className="wrapper">
-          <button onClick={handleClick("specialty")}>
+          <button onClick={this.handleClick('specialty')}>
             Specialty Equipment
             &nbsp;
             <img src={DownArrow} alt="arrow" />
           </button>
 
           {
-            this.state.section["special"]
+            this.state['sections']['special']
               ? (
                 <ul id="special">
                   <li className="menuSubtext">Incubator</li>

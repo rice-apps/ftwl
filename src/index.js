@@ -8,16 +8,18 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import {Switch, Route } from 'react-router';
 import NewsList from "./news/NewsList.js";
 import NewsPost from "./news/NewsPost.js";
-
+import DonateDirectly from './Pages/DonateDirectly.js';
+import AffiliatePrograms from './Pages/AffiliatePrograms.js';
+import EventsAndNews from './Pages/EventsAndNews.js';
 
 
 ReactDOM.render(
   <Router>
-  <div>
-    <Route exact path='/' component={App}/>
-    <Route exact path='/news' component={NewsList}/>
-    <Route exact path = "/news/:id" component = {NewsPost}/>
-  </div>
+    <Switch>
+      <Route path="/" component={App} exact/>
+      <Route path="/affiliates" component={AffiliatePrograms} />
+      <Route path="/events" component={EventsAndNews} />
+    </Switch>
   </Router>
   , document.getElementById('root')
 );

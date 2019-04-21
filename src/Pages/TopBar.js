@@ -7,9 +7,7 @@ export default class TopBar extends Component {
   render() {
     return (
       <div>
-        <div>
           <MenuBar />
-        </div>
         {/* <div>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_donations" />
