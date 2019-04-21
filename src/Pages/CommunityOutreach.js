@@ -7,10 +7,10 @@ export default class CommunityOutreach extends Component {
     render() {
         return(
           <div className="COWrapper">
-            <div className="COTitle">Education and Community Outreach</div>
+            <div className="Title">Education and Community Outreach</div>
             <div className="COContentWrapper">
               <div className="COTextWrapperTop">
-                <div className="COHeader">Background</div>
+                <div className="Header">Background</div>
                 <p>We participates in many community, civic, and school events
                 as part of our education and outreach program. It is part of our mission to the community.
                 In addition to familiarizing the public with Friends of Texas Wildlife and what we do,
@@ -19,14 +19,14 @@ export default class CommunityOutreach extends Component {
               </div>
               <div className="COBottomContentWrapper">
                 <div className="COTextWrapperBottom">
-                  <div className="COHeader">Community Events</div>
+                  <div className="Header">Community Events</div>
                   <ul>
                     <li>Earth Day</li>
                     <li>National Night Out</li>
                     <li>Texas Wildlife & Woodland Expo at Lone Star College</li>
                     <li>Annual Fall Festival</li>
                   </ul>
-                  <div className="COHeader">Outreach</div>
+                  <div className="Header">Outreach</div>
                   <ul>
                     <li>The Woodlands Children's Museum</li>
                     <li>Garden Clubs</li>
@@ -34,11 +34,11 @@ export default class CommunityOutreach extends Component {
                     <li>Boy and Girl Scout Functions and Camps</li>
                     <li>School Programs (both private and public).</li>
                   </ul>
-                  <div className="COHeader">Media Outlet</div>
+                  <div className="Header">Media Outlet</div>
                   <ul>
                     <li>Texas Parks & Wildlife (publish news and information to help raise community awareness about wildlife issues)</li>
                   </ul>
-                  <div className="COEmailBox">
+                  <div className="ContactBox">
                     <h4>EDUCATION CONTACT</h4>
                     <h3>ftwl.center@gmail.com</h3>
                   </div>

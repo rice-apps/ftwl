@@ -5,7 +5,7 @@ export default class FoundAnimalInfo extends Component {
     render() {
         return(
           <div className="FAInfoWrapper">
-            <div className="FAInfoHeader">Found an animal?</div>
+            <div className="Title">Found an animal?</div>
             <div className="FAInfosubHeader">Don't worry! We can help.</div>
             <div className="AnimalOptionsWrapper">
               <div className="AnimalOption"><h1>Rabbits</h1></div>
@@ -13,7 +13,7 @@ export default class FoundAnimalInfo extends Component {
               <div className="AnimalOption"><h1>Squirrels</h1></div>
               <div className="AnimalOption"><h1>Fawns</h1></div>
             </div>
-            <div className="FAInfoHeader">General Information</div>
+            <div className="Title">General Information</div>
             <div className="CallingInfoWrapper">
               <div className="CallingInfo">
                 <h3>INJURED ADULT DEER</h3>
@@ -68,7 +68,7 @@ export default class FoundAnimalInfo extends Component {
                 </div>
               </div>
             </div>
-            <div className="FAInfoHeader">Frequently Asked Questions</div>
+            <div className="Title">Frequently Asked Questions</div>
             <div className="FAQWrapper">
               <div className="FAQItem">
                 <div className="FAQCategory">NUISANCE WILDLIFE</div>

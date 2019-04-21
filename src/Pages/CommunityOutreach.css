@@ -6,16 +6,6 @@
   align-items: center;
 }
 
-.COTitle{
-  width: 40vw;
-  margin-top: 7vh;
-  color: black;
-  font-size: 7vh;
-  font-style: italic;
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
-}
-
 .COContentWrapper{
   width: 50vw;
   height: 90vh;
@@ -28,11 +18,6 @@
 .COTextWrapperTop{
   width: 50vw;
   height: auto;
-}
-
-.COHeader{
-  font-size: 2.7vh;
-  font-weight: bold;
 }
 
 .COContentWrapper p{

@@ -6,15 +6,6 @@
   align-items: center;
 }
 
-.VolunteerTitle{
-  margin-top: 7vh;
-  color: black;
-  font-size: 7vh;
-  font-style: italic;
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
-}
-
 .VolunteerSubtitle{
   height: auto;
   width: 55vw;

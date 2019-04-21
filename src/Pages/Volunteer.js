@@ -5,7 +5,7 @@ export default class Volunteer extends Component {
     render() {
         return(
           <div className="VolunteerWrapper">
-            <div className="VolunteerTitle">Volunteer</div>
+            <div className="Title">Volunteer</div>
             <div className="VolunteerSubtitle">Friends of Texas Wildlife has no paid staff and relies totally on caring volunteers to help fulfill its mission. Our volunteers fall under two categories:</div>
             <div className="VolunteerButton"><h4>CLICK HERE TO VOLUNTEER!</h4></div>
             <div className="VolunteerCategoryWrapper">
