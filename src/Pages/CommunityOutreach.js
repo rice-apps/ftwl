@@ -38,7 +38,7 @@ export default class CommunityOutreach extends Component {
                   <ul>
                     <li>Texas Parks & Wildlife (publish news and information to help raise community awareness about wildlife issues)</li>
                   </ul>
-                  <div className="CommunityOEmailBox">
+                  <div className="COEmailBox">
                     <h4>EDUCATION CONTACT</h4>
                     <h3>ftwl.center@gmail.com</h3>
                   </div>

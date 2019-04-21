@@ -18,7 +18,7 @@ import Volunteer from './Pages/Volunteer.js';
 import Donate from './Pages/Donate.js';
 import AboutUs from './Pages/AboutUs.js';
 import CommunityOutreach from './Pages/CommunityOutreach.js';
-
+import IntakeCenter from './Pages/IntakeCenter.js';
 
 
 
@@ -42,6 +42,7 @@ class App extends Component {
         <Donate/>
         <AboutUs/>
         <CommunityOutreach/>
+        <IntakeCenter/>
         <BottomBar/>
       </div>
     );

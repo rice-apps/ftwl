@@ -1,4 +1,4 @@
-.COWrapper{
+.IntakeWrapper{
   height: 120vh;
   width: 100vw;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.COTitle{
+.IntakeTitle{
   width: 40vw;
   margin-top: 7vh;
   color: black;
@@ -16,72 +16,42 @@
   font-weight: normal;
 }
 
-.COContentWrapper{
+.IntakeContentWrapper{
   width: 50vw;
-  height: 90vh;
   margin-top: 5vh;
+  height: auto;
   display: flex;
   flex-direction: column;
-  text-align: left;
 }
 
-.COTextWrapperTop{
+.IntakeItemWrapper{
   width: 50vw;
   height: auto;
-}
-
-.COHeader{
-  font-size: 2.7vh;
-  font-weight: bold;
-}
-
-.COContentWrapper p{
-  font-size: 1.8vh;
-}
-
-.COBottomContentWrapper{
-  width: 50vw;
-  height: 70vh;
-  margin-top: 3vh;
+  margin-bottom: 5vh;
   display: flex;
 }
 
-.COTextWrapperBottom{
+.IntakeTextWrapper{
   width: 25vw;
-  height: 70vh;
+  height: auto;
+  text-align: left;
+  color: #545454;
   display: flex;
   flex-direction: column;
 }
 
-.COImageWrapper{
-  margin-left: 3vw;
-  width: 22vw;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
+.IntakeHeader{
+  font-size: 2.9vh;
+  font-weight: bold;
+  color: black;
 }
 
-.COImage1{
-  margin-top: 2vh;
-  width: 22vw;
-  height: 50%;
+.IntakeTextWrapper p{
+  font-size: 1.7vh;
+  width: 25vw;
 }
 
-.COImage2{
-  margin-top: 2vh;
-  width: 22vw;
-  height: 60%;
-}
-
-.COContentWrapper ul{
-  font-size: 1.8vh;
-  list-style-position: inside;
-  margin-left: 0;
-  margin-top: 2vh;
-  padding: 0;
-}
-
-.COEmailBox{
+.IntakeEmailBox{
   height: 12vh;
   width: 25vw;
   margin-top: 2vh;
@@ -93,15 +63,21 @@
   flex-direction: column;
 }
 
-.COEmailBox h4{
+.IntakeEmailBox h4{
   position: absolute;
   margin-top: 2vh;
   font-size: 2.3vh;
   font-weight: bold;
 }
 
-.COEmailBox h3{
+.IntakeEmailBox h3{
   position: absolute;
   margin-top: 6vh;
   font-size: 3vh;
+}
+
+.IntakeImage{
+  margin-left: 3vw;
+  width: 20vw;
+  height: 30vh;
 }
