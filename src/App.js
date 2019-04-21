@@ -17,6 +17,10 @@ import { Switch, Route } from 'react-router';
 import DonateDirectly from './Pages/DonateDirectly.js';
 import NewsList from './news/NewsList.js';
 import NewsPost from './news/NewsPost.js';
+import Donate from './Pages/Donate.js';
+import AboutUs from './Pages/AboutUs.js';
+import CommunityOutreach from './Pages/CommunityOutreach.js';
+import IntakeCenter from './Pages/IntakeCenter.js';
 
 
 
@@ -28,13 +32,17 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={DesktopHDCopy} />
+            <Route path="/aboutus" component={AboutUs} />
             <Route path="/affiliates" component={AffiliatePrograms} />
+            <Route path="/community" component={CommunityOutreach} />
+            <Route path="/donate" component={Donate} />
             <Route path="/donatedirectly" component={DonateDirectly} />
             <Route path="/events" component={EventsAndNews} />
             <Route path="/foundanimal" component={FoundAnimal} />
             <Route path="/foundanimalinfo" component={FoundAnimalInfo} />
             <Route path="/hostparty" component={HostAParty} />
             <Route path="/howtohelp" component={HowYouCanHelp} />
+            <Route path="/intake" component={IntakeCenter} />
             <Route path="/needassistance" component={NeedAssistance} />
             <Route exact path='/news' component={NewsList} />
             <Route exact path="/news/:id" component={NewsPost} />

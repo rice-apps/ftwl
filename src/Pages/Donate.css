@@ -1,0 +1,86 @@
+.DonateWrapper{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DonateTitle{
+  margin-top: 7vh;
+  color: black;
+  font-size: 7vh;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+.DonateContentWrapper{
+  margin-top: 5vh;
+  height: auto;
+  width: 55vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.DonateTextWrapper{
+  height: auto;
+  width: 33vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  color: #646464;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.DonateHeader{
+  font-size: 3vh;
+  font-weight: bold;
+  width: 33vw;
+}
+
+.DonateTextWrapper p{
+  color: #969696;
+  width: 33vw;
+}
+
+.DonateButton{
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  height: 5vh;
+  width: 13vw;
+  color: #646464;
+  font-size: 2vh;
+  font-weight: bold;
+  outline: 2px solid #646464;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DonateCostWrapper{
+  height: auto;
+  width: 33vw;
+  margin-top: 4vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.DonateCost{
+  font-size: 6vh;
+  font-weight: bold;
+  color: #646464;
+  width: 9vw;
+}
+
+.DonateCostText{
+  font-size: 2.1vh;
+  margin-bottom: 1vh;
+  color: #969696;
+}
+
+.DonateImage{
+  height: 35vh;
+}
