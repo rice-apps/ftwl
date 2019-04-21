@@ -1,5 +1,5 @@
 .HostPartyWrapper{
-  height: 150vh;
+  height: 180vh;
   width: 100vw;
   background-color: white;
   display: flex;
@@ -17,15 +17,14 @@
 }
 
 #HostPartyContentWrapper{
-  height: 55vh;
-  width: 60vw;
+  height: auto;
+  width: 50vw;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: top;
 }
 
 .HostPartyTextWrapper{
-  height: 20vw;
+  height: auto;
   width: 30vw;
   text-align: left;
   color: #646464;
@@ -37,7 +36,42 @@
 }
 
 .HostPartyImage{
-  height: 20vw;
-  width: 20vw;
-  background-color: #C4C4C4;
+  height: 35vh;
+  margin-left: -5vw;
+}
+
+.HostPartyCallWrapper{
+  height: 40vh;
+  width: 50vw;
+}
+
+.HostPartyCallBox{
+  height: 14vh;
+  width: 25vw;
+  margin-top: 5vh;
+  background-color: #DBDBDB;
+  box-shadow: 0.6vw 0.6vw grey;
+  color: #646464;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.HostPartyCallBox h4{
+  position: absolute;
+  margin-top: 2vh;
+  font-size: 2.3vh;
+  font-weight: bold;
+}
+
+.HostPartyCallBox h3{
+  position: absolute;
+  margin-top: 6vh;
+  font-size: 3vh;
+}
+
+.HostPartyCallBox h2{
+  position: absolute;
+  margin-top: 5vh;
+  font-size: 5vh;
 }

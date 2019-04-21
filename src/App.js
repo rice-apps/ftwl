@@ -15,6 +15,7 @@ import AffiliatePrograms from './Pages/AffiliatePrograms.js';
 import HostAParty from './Pages/HostAParty.js';
 import FoundAnimalInfo from './Pages/FoundAnimalInfo.js';
 import MenuBar from './Pages/MenuBar.js';
+import Volunteer from './Pages/Volunteer.js';
 
 
 
@@ -25,6 +26,7 @@ class App extends Component {
       <div className="App">
         <MenuBar/>
         <DesktopHDCopy/>
+        <BottomBar/>
       </div>
     );
   }

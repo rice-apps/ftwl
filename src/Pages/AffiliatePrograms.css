@@ -1,5 +1,5 @@
 .AffProgramsWrapper{
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   background-color: white;
   display: flex;
@@ -12,7 +12,7 @@
 #AffProgramsWrapper{
   margin-top: 3vh;
   width: 42vw;
-  height: 70vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,14 +33,27 @@
   width: 42vw;
   color: #646464;
   text-align: left;
+  outline: 1px solid black;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+}
+
+.AffProgrmasTextWrapper{
+  height: auto;
+  width: 35vw;
 }
 
 .AffProgramsItemTitle{
   font-size: 2.7vh;
   font-weight: bold;
-  text-decoration: underline;
 }
 
 .AffProgramsItem p{
+  width: 35vw;
   font-size: 1.7vh;
+}
+
+.AffIcon{
+  margin-left: 2.5vw;
 }
