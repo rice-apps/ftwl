@@ -17,6 +17,7 @@ import FoundAnimalInfo from './Pages/FoundAnimalInfo.js';
 import Volunteer from './Pages/Volunteer.js';
 import Donate from './Pages/Donate.js';
 import AboutUs from './Pages/AboutUs.js';
+import CommunityOutreach from './Pages/CommunityOutreach.js';
 
 
 
@@ -40,6 +41,7 @@ class App extends Component {
         <Volunteer/>
         <Donate/>
         <AboutUs/>
+        <CommunityOutreach/>
         <BottomBar/>
       </div>
     );
