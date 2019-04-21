@@ -14,6 +14,7 @@ import FoundAnimal from './Pages/FoundAnimal.js';
 
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+#templateContainer {
+  width: 70vw;
+  margin: auto;
+}
+
+#background {}
+
+p {
+  text-align: left;
+  color: #404040;
+  font-size: 1.2vw;
+}
+
+.subtitle {
+  margin-top: 0;
+  text-align: left;
+  color: #404040;
+  padding-bottom: 3vh;
+  font-size: 1.7vw;
+}
+
+.info {
+  padding-bottom: 4vh;
+}
+
+#title {
+  text-align: center;
+  font-size: 4vw;
+  font-style: italic;
+  font-family: 'Playfair Display';
+  color: #404040;
+}
+
+#textarea {
+  width: 40vw;
+  float: left;
+  vertical-align: top;
+}
+
+#images {
+  width: 25vw;
+  float: right;
+
+}
+
+.image {
+  width: 25vw;
+  padding-bottom: 4vh;
+}
+
+#content {
+  padding-top: 4vh;
+}
+
+#callUs {
+  margin: 4vh 0;
+  float: left;
+  width: 30vw;
+  background-color: #E8E8E8;
+  padding: 2vh;
+  box-shadow: 0.5vw 0.5vh #909090;
+}
+
+#callUs p {
+  text-align: center;
+  color: #909090;
+  margin: 0.1vh;
+}
+
+#callUsText {
+  font-size: 3vh;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+}
+
+#number {
+  font-size: 5vh;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}

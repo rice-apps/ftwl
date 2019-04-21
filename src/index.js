@@ -8,8 +8,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import {Switch, Route } from 'react-router';
 import NewsList from "./news/NewsList.js";
 import NewsPost from "./news/NewsPost.js";
-
-
+import Template from './foundAnimals/Template.js';
 
 ReactDOM.render(
   <Router>
@@ -17,6 +16,7 @@ ReactDOM.render(
     <Route exact path='/' component={App}/>
     <Route exact path='/news' component={NewsList}/>
     <Route exact path = "/news/:id" component = {NewsPost}/>
+    <Route exact path = "/animals/:id" component = {Template}/>
   </div>
   </Router>
   , document.getElementById('root')

@@ -19,11 +19,24 @@ export default class EventsAndNews extends React.Component{
     this.fetchPosts().then(this.setPosts);
   }
 
+  hasNews = true;
+
   setPosts = response => {
-    var latestNews = response.items[response.items.length - 1].fields;
+    if (response.items.length < 1) {
+      this.hasNews = false;
+      return;
+    }
+    var latestNews = response.items[0].fields;
+    response.items.forEach(function (item) {
+      var dateA = new Date(latestNews.date);
+      var dateB = new Date(item.fields.date);
+      if (dateA < dateB) {
+        latestNews = item.fields;
+      }
+    });
     this.setState({
       title: latestNews.title,
-      imageUrl: 'https:' + latestNews.image[0].fields.file.url
+      imageUrl: latestNews.image != undefined ? 'https:' + latestNews.image[0].fields.file.url : null
     });
     console.log(latestNews);
   }
@@ -45,7 +58,9 @@ export default class EventsAndNews extends React.Component{
 
         <div id = "news">
         <p class = "title">Latest News</p>
-        <img id = "latestImage" src = {this.state.imageUrl}/>
+        {
+          (this.state.imageUrl != null && this.hasNews) ? <img id = "latestImage" src = {this.state.imageUrl}/> : <div></div>
+        }
         <p id = "currentTitle">{this.state.title}</p>
         <Link to={{pathname: "/news"}} id = "link">
           See all News
