@@ -6,7 +6,7 @@ export default class HostAParty extends Component {
     render() {
         return(
           <div className="HostPartyWrapper">
-            <h1>Host a Party</h1>
+            <div className="Title">Host a Party</div>
             <div id="HostPartyContentWrapper">
               <div className="HostPartyTextWrapper">
                 <div className="HostPartyHeader">Give your child a wild party</div>
@@ -30,11 +30,11 @@ export default class HostAParty extends Component {
               <img className="HostPartyImage" src={PartyPic}/>
             </div>
             <div className="HostPartyCallWrapper">
-              <div className="HostPartyCallBox">
+              <div className="ContactBox">
                 <h4>CALL US</h4>
                 <h2>281-259-0039</h2>
               </div>
-              <div className="HostPartyCallBox">
+              <div className="ContactBox">
                 <h4>Email US</h4>
                 <h3>ftwl.education@gmail.com</h3>
               </div>

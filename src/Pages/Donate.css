@@ -6,15 +6,6 @@
   align-items: center;
 }
 
-.DonateTitle{
-  margin-top: 7vh;
-  color: black;
-  font-size: 7vh;
-  font-style: italic;
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
-}
-
 .DonateContentWrapper{
   margin-top: 5vh;
   height: auto;

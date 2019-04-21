@@ -7,18 +7,11 @@
   align-items: center;
 }
 
-.HostPartyWrapper h1{
-  margin-top: 10vh;
-  color: black;
-  font-size: 7vh;
-  font-style: italic;
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
-}
 
 #HostPartyContentWrapper{
   height: auto;
   width: 50vw;
+  margin-top: 5vh;
   display: flex;
   align-items: top;
 }
@@ -43,35 +36,4 @@
 .HostPartyCallWrapper{
   height: 40vh;
   width: 50vw;
-}
-
-.HostPartyCallBox{
-  height: 14vh;
-  width: 25vw;
-  margin-top: 5vh;
-  background-color: #DBDBDB;
-  box-shadow: 0.6vw 0.6vw grey;
-  color: #646464;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.HostPartyCallBox h4{
-  position: absolute;
-  margin-top: 2vh;
-  font-size: 2.3vh;
-  font-weight: bold;
-}
-
-.HostPartyCallBox h3{
-  position: absolute;
-  margin-top: 6vh;
-  font-size: 3vh;
-}
-
-.HostPartyCallBox h2{
-  position: absolute;
-  margin-top: 5vh;
-  font-size: 5vh;
 }

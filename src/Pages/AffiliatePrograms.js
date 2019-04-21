@@ -6,7 +6,7 @@ export default class AffiliatePrograms extends Component {
     render() {
         return(
           <div className="AffProgramsWrapper">
-            <div className="AffProgramsTitle">Support Us While Shopping</div>
+            <div className="Title">Support Us While Shopping</div>
             <div id="AffProgramsWrapper">
               <div className="AffProgramsItem">
                 <div className="AffProgrmasTextWrapper">

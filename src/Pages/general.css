@@ -1,0 +1,46 @@
+.Title{
+  width: 40vw;
+  margin-top: 7vh;
+  color: black;
+  font-size: 7vh;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+.Header{
+  font-size: 2.9vh;
+  font-weight: bold;
+  color: black;
+}
+
+.ContactBox{
+  height: 12vh;
+  width: 25vw;
+  margin-top: 2vh;
+  background-color: #D8D8D8;
+  box-shadow: 0.6vw 0.6vw grey;
+  color: #646464;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContactBox h4{
+  position: absolute;
+  margin-top: 2vh;
+  font-size: 2.3vh;
+  font-weight: bold;
+}
+
+.ContactBox h3{
+  position: absolute;
+  margin-top: 6vh;
+  font-size: 3vh;
+}
+
+.ContactBox h2{
+  position: absolute;
+  margin-top: 5vh;
+  font-size: 5vh;
+}

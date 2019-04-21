@@ -6,7 +6,7 @@ export default class Donate extends Component {
     render() {
         return(
           <div className="DonateWrapper">
-            <div className="DonateTitle">Donate</div>
+            <div className="Title">Donate</div>
             <div className="DonateContentWrapper">
               <div className="DonateTextWrapper">
                 <div className="DonateHeader">Every dollar helps us save animals.</div>
